@@ -26,14 +26,14 @@ O HTML da página é organizado da seguinte forma:
     - uma tag div, onde será inserido o resultado do IMC;
     - ao final faz a relação com o arquivo em JavaScript chamado "main.js".
 
-O documento "main.js" possui as seguintes instruções:
-    - utilizando "querySelector", seleciona a tag form através do id;
-    - adiciona um "addEventListener" para escutar o submit do botão "calcular";
-    - utilizando evento.target.querySelector, armazana-se os valores de peso e altura;
-    - chama-se a função "getImc" para calcular o valor do IMC;
-    - chama-se a função "getNivelImc" para verificar em qual faixa o IMC se encontra;
-    - cria-se a mensagem para ser exibida na tela para o usuário;
-    - chama-se a função "setResultado" para exibir o resultado na tela.
+O documento "main.js" possui as seguintes instruções:  
+    - utilizando "querySelector", seleciona a tag form através do id;  
+    - adiciona um "addEventListener" para escutar o submit do botão "calcular";  
+    - utilizando evento.target.querySelector, armazana-se os valores de peso e altura;  
+    - chama-se a função "getImc" para calcular o valor do IMC;  
+    - chama-se a função "getNivelImc" para verificar em qual faixa o IMC se encontra;  
+    - cria-se a mensagem para ser exibida na tela para o usuário;  
+    - chama-se a função "setResultado" para exibir o resultado na tela.  
 
 # Funcionalidades
 - [x] Campos de entrada de dados de Peso e Altura
